@@ -32,6 +32,12 @@ The application provides a simple web interface where users can select a cancer 
 ---
 ## 📸 OncoVision AI — Application Screenshots
 
+### ℹ️ About OncoVision AI
+
+The About section explains the project architecture, supported cancer detection modules, technologies, and workflow.
+
+![About OncoVision AI](screenshot/about.png)
+
 ### 🧬 Cancer Detection Interface
 
 Users can upload medical images and use the trained deep-learning models for cancer classification.
@@ -48,11 +54,6 @@ OncoVision AI provides the predicted class, confidence score, class probabilitie
 
 ---
 
-### ℹ️ About OncoVision AI
-
-The About section explains the project architecture, supported cancer detection modules, technologies, and workflow.
-
-![About OncoVision AI](screenshot/about.png)
 
 # 🧠 Machine Learning Pipeline
 
