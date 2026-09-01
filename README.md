@@ -30,6 +30,29 @@ OncoVision AI currently supports three cancer-related prediction modules:
 The application provides a simple web interface where users can select a cancer module and submit the required input.
 
 ---
+## 📸 OncoVision AI — Application Screenshots
+
+### 🧬 Cancer Detection Interface
+
+Users can upload medical images and use the trained deep-learning models for cancer classification.
+
+![Input Stage](screenshot/input_stage.png)
+
+---
+
+### 🔥 Prediction & Grad-CAM Explainability
+
+OncoVision AI provides the predicted class, confidence score, class probabilities, and Grad-CAM visualization to highlight regions that influenced the model prediction.
+
+![Prediction and Grad-CAM](screenshot/gradcam_output.png)
+
+---
+
+### ℹ️ About OncoVision AI
+
+The About section explains the project architecture, supported cancer detection modules, technologies, and workflow.
+
+![About OncoVision AI](screenshot/about.png)
 
 # 🧠 Machine Learning Pipeline
 
