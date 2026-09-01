@@ -1,0 +1,58 @@
+# ==========================================
+# OncoVision AI - .gitignore
+# ==========================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ---------- Virtual Environment ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Dataset ----------
+# Dataset is ~0.91 GB, so keep it out of GitHub
+data/
+
+# ---------- Old / unnecessary models ----------
+models/skin/best_resnet18.pth
+models/skin/best_resnet18_v2.pth
+models/skin/best_resnet18_v3.pth
+
+models/lung/best_resnet18_lung_stage1.pth
+
+# ---------- Streamlit ----------
+.streamlit/secrets.toml
+
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- Other IDE files ----------
+.idea/
+
+# ---------- Windows / OS ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- Logs / Temporary ----------
+*.log
+*.tmp
+*.temp
+
+# ---------- Python build ----------
+build/
+dist/
+*.egg-info/
+
+# ---------- Environment files ----------
+.env
+.env.*
