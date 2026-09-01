@@ -36,7 +36,7 @@ The application provides a simple web interface where users can select a cancer 
 
 Users can upload medical images and use the trained deep-learning models for cancer classification.
 
-![Input Stage](screenshot/input_stage.png)
+![Input Stage](screenshot/inputstage.png)
 
 ---
 
@@ -44,7 +44,7 @@ Users can upload medical images and use the trained deep-learning models for can
 
 OncoVision AI provides the predicted class, confidence score, class probabilities, and Grad-CAM visualization to highlight regions that influenced the model prediction.
 
-![Prediction and Grad-CAM](screenshot/gradcam_output.png)
+![Prediction and Grad-CAM](screenshot/gradcamoutput.png)
 
 ---
 
